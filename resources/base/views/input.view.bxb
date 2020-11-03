@@ -1,0 +1,29 @@
+input-view {
+  match: Name (name)
+
+  message {
+    template-macro (enterName)
+  }
+
+  render {
+    form {
+      // the goal that will be used when the form is submitted
+      on-submit {
+        goal: Name
+        value: viv.core.FormElement(name)
+      }
+      elements {
+        text-input {
+          id (name)
+          type (Name)
+          label (Text)
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver {
+      template-macro (restart)
+    }
+  }
+}

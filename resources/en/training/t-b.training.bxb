@@ -1,0 +1,10 @@
+train (t-b1ffj2s92wt4walq4gvg3nah1) {
+  utterance ("[g:Name:prompt] (Fred John Smith)[v:Name]")
+  plan (Y2BikC/ISaxML8ovzUvRS8lMzMlPz01MLspPSc3N1/NLzE0lrIARCBkYeICYCYiBbAA=)
+  last-modified (1602700127826)
+}
+train (t-bq2qmcdgp9lj5r6ouvnv4vzcu) {
+  utterance ([g:GetNameAction] Restart)
+  plan (Y2BmkC/ISaxML8ovzUvRS8lMzMlPz01MLspPSc3N1/NLzE1l0MCjwD21BKTGMbkkMz+PsFFMDIxAzAAkGRkYYDQA)
+  last-modified (1602628975228)
+}

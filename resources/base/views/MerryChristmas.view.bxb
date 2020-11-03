@@ -1,0 +1,30 @@
+result-view {
+  match: DummyText ()
+  message {
+    template ("Merry Christmas") {
+     speech("<speak>#{macro('christmasBells')}#{macro('gbM2voice')}Merry Christmas</lang></speak>")
+      //speech ("<speak><audio src=\"https://voicecraft.s3.amazonaws.com/capsules/advent-calendar/christmas-bells2.wav\"></audio><lang xml:lang=\"en-GB\" voice=\"M02\">Merry Christmas</lang></speak>")
+
+    }
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text ("Merry Christmas #{macro('printYear')}")
+          }
+          image {
+            url (/images/roberto-nickson-5PQn41LFsQk-unsplash.jpg)
+            aspect-ratio (9:16)
+          }
+          attribution-link {
+            label (Unsplash)
+            url (https://unsplash.com/) 
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+train (t-hfjx8itye9x7vrsbtilx4qf0m) {
+  utterance ([g:MerryChristmasAction] merry christmas)
+  plan (Y2BiUCnISaxML8ovzUvRS8lMzMlPz01MLspPSc3N13Mpzc2tDEmtKGHQx6PKN7WoqNI5oyizuCQ3sdgxuSQzP4+BEQgZoBhIAgA=)
+  last-modified (1602635178223)
+}
+train (t-h9fhmprifpuwh6lv3l5x3jv8v) {
+  utterance ("[g:Name:prompt] (Fred)[v:Name]")
+  last-modified (1602700110031)
+}

@@ -1,0 +1,33 @@
+result-view {
+  match: Name (name) {
+    min (Required)
+    max (One)
+  }
+
+  message {
+    template-macro (helloThere) {
+      param(name) {
+        expression (name)
+      }
+    }
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            // The "Date entered" should be in /en - shown here as an example
+            // of embedding a macro in a string
+            text ("Date entered: #{macro('printDate')}") 
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver {
+      template-macro (restart)
+    }
+  }
+}

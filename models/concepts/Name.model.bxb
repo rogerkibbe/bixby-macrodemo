@@ -1,0 +1,6 @@
+name (Name) {
+  description (Name)
+  features {
+    transient
+  }
+}

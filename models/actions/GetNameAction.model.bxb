@@ -1,0 +1,16 @@
+action (GetNameAction) {
+  type(Calculation)
+  description (Get input)
+  collect {
+    input (name) {
+      type (Name)
+      min (Required) max (One)
+    }
+  }
+  output (Name) {
+    evaluate {
+      $expr(name)
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+macro-def (dateEntered) {
+  content {
+    template ("Date entered: #{macro('printDate')} ")
+  }
+}
+
+macro-def (printDate) {
+  content {
+    template ("#{dateTime(now().date, 'MMM dd, yyyy')}")
+  }
+}
+
+macro-def (printYear) {
+  content {
+    template ("#{dateTime(now().date, 'yyyy')}")
+  }
+}

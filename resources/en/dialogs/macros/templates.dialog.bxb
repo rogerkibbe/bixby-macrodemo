@@ -1,0 +1,36 @@
+template-macro-def (enterName) {
+  content {
+    template ("Enter your name")
+  }
+}
+
+template-macro-def (helloThere) {
+  params {
+    param (name) {
+      type (Name)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("Hello there, #{value(name)}")
+  }
+}
+
+
+template-macro-def (christmasBells) {
+  content {
+    template ("<audio src=\"https://voicecraft.s3.amazonaws.com/capsules/advent-calendar/christmas-bells2.wav\"></audio>")
+  }
+}
+
+template-macro-def (gbM2voice) {
+  content {
+    template ("<lang xml:lang=\"en-GB\" voice=\"M02\">")
+  }
+}
+template-macro-def (restart) {
+  content {
+    template ("restart")
+  }
+}

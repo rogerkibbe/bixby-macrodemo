@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Macro Demo)
+  developer-name (Roger Kibbe - @rogerkibbe)
+  description ("Capsule to demonstrate using Bixby macros")
+  dispatch-name (Macro Demo)
+  icon-asset (icon/bixby-logo.png)
+  search-keywords {
+    keyword (dialog)
+    keyword (macro)
+    keyword(demo)
+  }
+}
