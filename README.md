@@ -22,10 +22,10 @@ Phrases to try:
 A series of Bixby tutorial videos used this sample code:
 
 ## Tutorial Video - Dialog Macro Usage
-[![Watch the video](https://i.ytimg.com/vi/m59gdENqlLQ/hqdefault.jpg)](https://youtu.be/6RHpci1w6FE)
+[![Watch the video](https://i.ytimg.com/vi/m59gdENqlLQ/hqdefault.jpg)](https://youtu.be/m59gdENqlLQ)
 
 ## Tutorial Video - Using Dialog Macros for SSML
-[![Watch the video](https://i.ytimg.com/vi/kmN8RFSY_ns/hqdefault.jpg)](https://youtu.be/6RHpci1w6FE)
+[![Watch the video](https://i.ytimg.com/vi/kmN8RFSY_ns/hqdefault.jpg)](https://youtu.be/kmN8RFSY_ns)
 
 ## Tutorial Video - Text Macros
-[![Watch the video](https://i.ytimg.com/vi/GJjPmcMX63A/hqdefault.jpg)](https://youtu.be/6RHpci1w6FE)
+[![Watch the video](https://i.ytimg.com/vi/GJjPmcMX63A/hqdefault.jpg)](https://youtu.be/GJjPmcMX63A)
